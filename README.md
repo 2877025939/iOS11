@@ -20,7 +20,8 @@ iOS 11适配
 [iOS开发-适配iOS 11](http://www.jianshu.com/p/a356b2ed4ceb)
  
 [完美适配 iOS11 导航栏](http://www.cocoachina.com/ios/20170919/20597.html)
- 
+
+[腾讯WeTest 你可能需要为你的APP适配iOS11](http://wetest.qq.com/lab/view/326.html)
 
 iPhone X 适配
 ------------
