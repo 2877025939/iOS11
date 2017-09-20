@@ -11,15 +11,15 @@ iOS 11
 iOS 11适配
 ---------
 
- [简书App适配iOS 11](http://www.jianshu.com/p/26fc39135c34)  
+[简书App适配iOS 11](http://www.jianshu.com/p/26fc39135c34)  
  
- [掘金客户端适配iOS11简单记录](https://juejin.im/entry/59bb92ab6fb9a00a681ac051)
+[掘金客户端适配iOS11简单记录](https://juejin.im/entry/59bb92ab6fb9a00a681ac051)
  
- [iOS 11 安全区域适配总结](http://www.jianshu.com/p/efbc8619d56b)
+[iOS 11 安全区域适配总结](http://www.jianshu.com/p/efbc8619d56b)
  
- [iOS开发-适配iOS 11](http://www.jianshu.com/p/a356b2ed4ceb)
+[iOS开发-适配iOS 11](http://www.jianshu.com/p/a356b2ed4ceb)
  
- [完美适配 iOS11 导航栏](http://www.cocoachina.com/ios/20170919/20597.html)
+[完美适配 iOS11 导航栏](http://www.cocoachina.com/ios/20170919/20597.html)
  
 
 iPhone X 适配
@@ -34,3 +34,18 @@ iPhone X 适配
 [iOS11 &amp; iPhone X 适配指南](http://www.10tiao.com/html/216/201709/2652552758/2.html)
 
 [iOS iPhone X 适配启动图片](http://www.cnblogs.com/someonelikeyou/p/7515025.html)
+
+[三分钟弄懂iPhone X 设计尺寸和适配](http://www.zcool.com.cn/article/ZNTU1MTUy.html)
+
+[ iPhone X 适配指南 (官方翻译版)](http://m.blog.csdn.net/happyshaotang2/article/details/77991536)
+
+iOS 11获取设备名称
+-----------------
+
+    if ([platform isEqualToString:@"iPhone10,1"]) return @"iPhone 8";
+    if ([platform isEqualToString:@"iPhone10,4"]) return @"iPhone 8";
+    if ([platform isEqualToString:@"iPhone10,2"]) return @"iPhone 8 Plus";
+    if ([platform isEqualToString:@"iPhone10,5"]) return @"iPhone 8 Plus";
+    if ([platform isEqualToString:@"iPhone10,3"]) return @"iPhone X";
+    if ([platform isEqualToString:@"iPhone10,6"]) return @"iPhone X";
+
