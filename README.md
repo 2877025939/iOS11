@@ -45,7 +45,7 @@ iPhone X 适配
 
 新增加iPhone X 上TabBar拉伸的,压缩的问题
 ------------------------------------
-如果是那种自定义TabBar中间是按钮的这种操作，我试了一下，之前中间按钮的高度设置的是TabBar的高度（ CGFloat buttonH = self.frame.size.height;），现在直接赋值，也可以解决这种问题 。CGFloat buttonH = 44;
+如果是那种自定义TabBar中间是按钮的这种操作，我试了一下，之前中间按钮的高度设置的是TabBar的高度（ CGFloat buttonH = self.frame.size.height;），现在直接赋值，也可以解决这种问题 。CGFloat buttonH = 49;
 
 [TabBar被拉伸的解决方法](https://stackoverflow.com/questions/46214740/ios-11-iphone-x-simulator-uitabbar-icons-and-titles-being-rendered-on-top-coveri)
 
