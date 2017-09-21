@@ -43,9 +43,11 @@ iPhone X 适配
 [ iPhone X 适配指南 (官方翻译版)](http://m.blog.csdn.net/happyshaotang2/article/details/77991536)
 
 
-新增加iPhone X 上TabBar被拉伸的解决方法
+新增加iPhone X 上TabBar拉伸的,压缩的问题
 ------------------------------------
 [TabBar被拉伸的解决方法](https://stackoverflow.com/questions/46214740/ios-11-iphone-x-simulator-uitabbar-icons-and-titles-being-rendered-on-top-coveri)
+
+[ios 11 UITabBar UITabBarItem positioning issue](https://stackoverflow.com/questions/44822558/ios-11-uitabbar-uitabbaritem-positioning-issue)
 
     #define IS_IPHONEX (([[UIScreen mainScreen] bounds].size.height-812)?NO:YES)
     self.tabBarController = [[UITabBarController alloc] init];
