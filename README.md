@@ -47,15 +47,17 @@ iPhone X 适配
 ------------------------------------
 [TabBar被拉伸的解决方法](https://stackoverflow.com/questions/46214740/ios-11-iphone-x-simulator-uitabbar-icons-and-titles-being-rendered-on-top-coveri)
 
-在APPDelegate操作
-#define IS_IPHONEX (([[UIScreen mainScreen] bounds].size.height-812)?NO:YES)
-self.tabBarController = [[UITabBarController alloc] init];    
-self.window.rootViewController = [[UIViewController alloc] init] ;
-if(IS_IPHONEX)
-    self.window.rootViewController.view.frame = CGRectMake(self.window.rootViewController.view.frame.origin.x, self.window.rootViewController.view.frame.origin.y, self.window.rootViewController.view.frame.size.width, self.window.rootViewController.view.frame.size.height + 32) ;
-[self.window.rootViewController.view addSubview:self.tabBarController.view];
-self.tabBarController.tabBar.barTintColor = [UIColor colorWithWhite:0.98 alpha:1.0] ;
-self.window.rootViewController.view.backgroundColor = [UIColor colorWithWhite:0.98 alpha:1.0] ;
+    #define IS_IPHONEX (([[UIScreen mainScreen] bounds].size.height-812)?NO:YES)
+    self.tabBarController = [[UITabBarController alloc] init];
+    self.window.rootViewController = [[UIViewController alloc] init];
+    if(IS_IPHONEX)
+        self.window.rootViewController.view.frame = CGRectMake(self.window.rootViewController.view.frame.origin.x, self.window.rootViewController.view.frame.origin.y, self.window.rootViewController.view.frame.size.width, self.window.rootViewController.view.frame.size.height + 32);
+    [self.window.rootViewController.view addSubview:self.tabBarController.view];
+    self.tabBarController.tabBar.barTintColor = [UIColor colorWithWhite:0.98 alpha:1.0];
+    self.window.rootViewController.view.backgroundColor = [UIColor colorWithWhite:0.98 alpha:1.0];
+    
+
+
 
 iOS 11获取设备名称
 -----------------
