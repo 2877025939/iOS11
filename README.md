@@ -23,6 +23,8 @@ iOS 11适配
 
 [腾讯WeTest 你可能需要为你的APP适配iOS11](http://wetest.qq.com/lab/view/326.html)
 
+[iOS 11 适配看这篇还不够？](http://www.jishux.com/plus/view-606748-1.html)
+
 iPhone X 适配
 ------------
 
