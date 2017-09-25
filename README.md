@@ -15,7 +15,7 @@ iOS 11适配
  
 [掘金客户端适配iOS11简单记录](https://juejin.im/entry/59bb92ab6fb9a00a681ac051)
  
-[iOS 11 安全区域适配总结](http://www.jianshu.com/p/efbc8619d56b)
+[iOS 11 安全区域适配总结](http://mp.weixin.qq.com/s/W1_0VrchCO50owhJNmJnuQ)
  
 [iOS开发-适配iOS 11](http://www.jianshu.com/p/a356b2ed4ceb)
 
