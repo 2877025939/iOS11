@@ -45,7 +45,7 @@ iPhone X 适配
 [ iPhone X 适配指南 (官方翻译版)](http://m.blog.csdn.net/happyshaotang2/article/details/77991536)
 
 
-新增加iPhone X 上TabBar拉伸的,压缩的问题
+2017.9.21 增加iPhone X 上TabBar拉伸的,压缩的问题
 ------------------------------------
 如果是那种自定义TabBar中间是按钮的这种操作，我试了一下，之前中间按钮的高度设置的是TabBar的高度（ CGFloat buttonH = self.frame.size.height;），现在直接赋值，也可以解决这种问题 。CGFloat buttonH = 49;
 
@@ -55,14 +55,22 @@ iPhone X 适配
 
 [奇点在 iPhone X 的 break](https://imtx.me/archives/2374.html)
 
-    #define IS_IPHONEX (([[UIScreen mainScreen] bounds].size.height-812)?NO:YES)
-    self.tabBarController = [[UITabBarController alloc] init];
-    self.window.rootViewController = [[UIViewController alloc] init];
-    if(IS_IPHONEX)
-        self.window.rootViewController.view.frame = CGRectMake(self.window.rootViewController.view.frame.origin.x, self.window.rootViewController.view.frame.origin.y, self.window.rootViewController.view.frame.size.width, self.window.rootViewController.view.frame.size.height + 32);
-    [self.window.rootViewController.view addSubview:self.tabBarController.view];
-    self.tabBarController.tabBar.barTintColor = [UIColor colorWithWhite:0.98 alpha:1.0];
-    self.window.rootViewController.view.backgroundColor = [UIColor colorWithWhite:0.98 alpha:1.0];
+ 2017.9.28 增加界面底部不带TabBar，iPhone X适配的问题
+ -------------------------------------------
+ 
+ 今天有小伙伴询问了界面底部不带TabBar，iPhone X底部圆角导致，界面不美观，怎么解决。
+ 
+ 目前的解决办法：
+ 
+ 1.tableView在初始化的时候，Height增加一个宏，判断一下，如果是iPhone X 底部留，20px。
+ 
+ 2.保持view的backgroundColor跟tableView一致。
+ 
+     #define IS_IPHONEX (([[UIScreen mainScreen] bounds].size.height-812)?NO:YES)
+ 
+     #define Height (IS_IPHONEX ? ([[UIScreen mainScreen] bounds].size.height-20):([[UIScreen mainScreen] bounds].size.height))
+ 
+         
     
 
 
