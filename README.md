@@ -42,7 +42,7 @@ iPhone X 适配
 
 [三分钟弄懂iPhone X 设计尺寸和适配](http://www.zcool.com.cn/article/ZNTU1MTUy.html)
 
-[ iPhone X 适配指南 (官方翻译版)](http://m.blog.csdn.net/happyshaotang2/article/details/77991536)
+[iPhone X 适配指南 (官方版)](https://developer.apple.com/cn/ios/update-apps-for-iphone-x/)
 
 
 2017.9.21 增加iPhone X 上TabBar拉伸的,压缩的问题
