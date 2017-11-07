@@ -44,6 +44,8 @@ iPhone X 适配
 
 [iPhone X 适配指南 (官方版)](https://developer.apple.com/cn/ios/update-apps-for-iphone-x/)
 
+[随手记在iPhone X上的适配实践总结 ](https://mp.weixin.qq.com/s/vzSUc2YPVIRD8CmkxaDfxg)
+
 [美团iPhone X 刘海打理指北](https://tech.meituan.com/iPhoneX%E5%88%98%E6%B5%B7%E6%89%93%E7%90%86%E6%8C%87%E5%8C%97.html)
 
 
