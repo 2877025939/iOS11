@@ -48,6 +48,7 @@ iPhone X 适配
 
 [美团iPhone X 刘海打理指北](https://tech.meituan.com/iPhoneX%E5%88%98%E6%B5%B7%E6%89%93%E7%90%86%E6%8C%87%E5%8C%97.html)
 
+[H5页面如何适配iPhone X ？腾讯设计师给出了通用解决方案](https://media.weibo.cn/article?id=2309404172191322233191&jumpfrom=weibocom&from=timeline&isappinstalled=0)
 
 2017.9.21 增加iPhone X 上TabBar拉伸的,压缩的问题
 ------------------------------------
@@ -64,15 +65,15 @@ iPhone X 适配
  
  今天有小伙伴询问了界面底部不带TabBar，iPhone X底部圆角导致，界面不美观，怎么解决。
  
- 目前的解决办法：
+ 解决办法：
  
- 1.tableView在初始化的时候，Height增加一个宏，判断一下，如果是iPhone X 底部留，20px。
+ 1.tableView在初始化的时候，Height增加一个宏，判断一下，如果是iPhone X 底部留，34px。
  
  2.保持view的backgroundColor跟tableView一致。
  
      #define IS_IPHONEX (([[UIScreen mainScreen] bounds].size.height-812)?NO:YES)
  
-     #define Height (IS_IPHONEX ? ([[UIScreen mainScreen] bounds].size.height-20):([[UIScreen mainScreen] bounds].size.height))
+     #define Height (IS_IPHONEX ? ([[UIScreen mainScreen] bounds].size.height-34):([[UIScreen mainScreen] bounds].size.height))
  
          
     
