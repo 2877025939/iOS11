@@ -21,7 +21,6 @@ iOS 11适配
 
 [适配iOS11&iPhoneX的一些坑 ](https://mp.weixin.qq.com/s?__biz=MjM5OTM0MzIwMQ==&amp;mid=2652552818&amp;idx=1&amp;sn=69db895d4d4078bd83e7e1655fcdd5f1&amp;chksm=bcd2fb7c8ba5726a0d7481ca5960ec3c1600b214f15841542a41c58612ef4866a9551cd82640#rd)
  
-[完美适配 iOS11 导航栏](http://www.cocoachina.com/ios/20170919/20597.html)
 
 [腾讯WeTest 你可能需要为你的APP适配iOS11](http://wetest.qq.com/lab/view/326.html)
 
